@@ -1,6 +1,31 @@
 
 /*** Spinner Start ***/
 /*** Spinner ***/
+
+.office-img {
+    width: 100%;
+    height: 250px; /* Set same height for all */
+    overflow: hidden;
+}
+
+.office-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Prevent image stretching */
+}
+
+.service-img {
+    width: 100%;
+    height: 250px; /* Set equal height for all images */
+    overflow: hidden;
+}
+
+.service-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Prevents distortion */
+}
+
 #spinner {
     opacity: 0;
     visibility: hidden;
